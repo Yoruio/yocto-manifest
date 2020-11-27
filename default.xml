@@ -13,6 +13,7 @@
   <remote name="ossytems" fetch="git://github.com/OSSystems" />
   <remote name="clang" fetch="git://github.com/kraj" />
   <remote name="ros" fetch="git://github.com/ros" />
+  <remote name="yoruio" fetch="git://github.com/yoruio" />
 
   <!-- List all the repositories you want to fetch -->
   <!-- "name": git repository's name on hosting server
@@ -24,8 +25,8 @@
   <project name="meta-ti" revision="refs/heads/dunfell"  remote="yocto" path="poky/meta-ti" />
   <project name="meta-raspberrypi" revision="refs/heads/dunfell"  remote="yocto" path="poky/meta-raspberrypi" />
   <project name="meta-openembedded" revision="refs/heads/dunfell"  remote="oe" path="poky/meta-openembedded" />
-  <project name="meta-gumstix" revision="refs/heads/dunfell"  remote="gumstix" path="poky/meta-gumstix" />
-  <project name="meta-gumstix-extras" revision="refs/heads/dunfell" remote="gumstix" path="poky/meta-gumstix-extras" />
+  <project name="meta-gumstix" revision="refs/heads/dunfell"  remote="yoruio" path="poky/meta-gumstix" />
+  <project name="meta-gumstix-extras" revision="refs/heads/dunfell" remote="yoruio" path="poky/meta-gumstix-extras" />
   <project name="meta-qt5" revision="refs/heads/dunfell"  remote="qt5" path="poky/meta-qt5" />
   <project name="meta-tegra" revision="refs/heads/dunfell-l4t-r32.4.3" remote="tegra" path="poky/meta-tegra" />
   <project name="meta-java" revision="refs/heads/dunfell"  remote="yocto" path="poky/meta-java" />
